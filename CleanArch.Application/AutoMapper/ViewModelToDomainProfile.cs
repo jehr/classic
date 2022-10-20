@@ -1,10 +1,13 @@
 ﻿using Application.CQRS.Rol.Commands;
+using Application.CQRS.Routine.Command;
+using Application.CQRS.Routine.Exercise;
 using Application.CQRS.User.Commands;
 using Application.DTOs.Location;
 using Application.DTOs.User;
 using AutoMapper;
 using Core.Models.Location;
 using Domain.Models.Rol;
+using Domain.Models.Routine;
 using Domain.Models.User;
 
 namespace CleanArch.Application.AutoMapper
@@ -40,6 +43,10 @@ namespace CleanArch.Application.AutoMapper
             CreateMap<CountryDto, Country>();
             CreateMap<StateDto, State>();
             CreateMap<CityDto, City>();
+
+            CreateMap<RoutineCommand, Routines>();
+            CreateMap<ExerciseCommand, Exercises>();
+
         }
     }
 }

@@ -19,7 +19,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D1FEFD43-30A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "CleanArch.Domain.Core\Core.csproj", "{21ACA7F5-408F-4C10-BF27-E9ABD5A5EDBB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Citacion.Gth.Api", "CleanArch.Api\Citacion.Gth.Api.csproj", "{C3A9C95C-BC9E-455E-AD74-4AD841C25CFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classic.Api", "CleanArch.Api\Classic.Api.csproj", "{C3A9C95C-BC9E-455E-AD74-4AD841C25CFE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Ioc", "CleanArch.Infra.Ioc\Infra.Ioc.csproj", "{DC149EFD-8947-436E-B04E-687E02F3E241}"
 EndProject
