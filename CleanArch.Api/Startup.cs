@@ -88,7 +88,7 @@ namespace Classic.Api
 
             services.AddCors();
             services.AddSwaggerGen(c => {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Citacion GTH", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Classic", Version = "v1" });
                 // Set the comments path for the Swagger JSON and UI.
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
@@ -128,7 +128,7 @@ namespace Classic.Api
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "CITACION.GTH v.1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Classic v.1");
                 c.RoutePrefix = string.Empty;
             });
             app.UseAuthentication();
