@@ -46,7 +46,6 @@ namespace CleanArch.Application.AutoMapper
 
             CreateMap<RoutineCommand, Routines>();
             CreateMap<ExerciseCommand, Exercises>();
-
         }
     }
 }

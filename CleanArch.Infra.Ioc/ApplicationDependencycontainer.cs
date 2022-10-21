@@ -6,6 +6,7 @@ using Application.Interfaces.Routines.Exercise;
 using Application.Interfaces.Routines.GroupMuscular;
 using Application.Interfaces.Routines.Level;
 using Application.Interfaces.User;
+using Application.Interfaces.Valoration;
 using Application.Services.Location;
 using Application.Services.Payment;
 using Application.Services.Rol;
@@ -14,6 +15,7 @@ using Application.Services.Routines.Exercise;
 using Application.Services.Routines.GroupMuscular;
 using Application.Services.Routines.Level;
 using Application.Services.User;
+using Application.Services.Valoration;
 using CleanArch.Application.Interfaces.Auths;
 using CleanArch.Application.Services.Auths;
 using Microsoft.Extensions.DependencyInjection;
@@ -42,6 +44,7 @@ namespace Infra.Ioc
             services.AddScoped<IRoutineService, RoutineService>(); 
             services.AddScoped<IGroupMuscular, GroupMuscular>(); 
             services.AddScoped<IExerciseService, ExerciseService>(); 
+            services.AddScoped<IValorationService, ValorationService>();
         }
     }
 }
